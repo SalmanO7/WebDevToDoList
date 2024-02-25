@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="child">
+        <!-- <img src="music//img" alt="img"> -->
+        <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >To-Do List <br> Muhammad Salman</h1>
+        <div>
+          <input type="text" id="taskInput" placeholder="Enter task..." />
+          <button id="btn" onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="taskList" onclick="taskAction(event)"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
